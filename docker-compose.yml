@@ -1,0 +1,6 @@
+version: '3.4'
+services:
+  doc-an:
+    image: doc-an
+    ports:
+      - "7878:7878"
