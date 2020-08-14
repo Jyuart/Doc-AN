@@ -2,6 +2,7 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 WORKDIR /app
 EXPOSE 7878
 ENV ASPNETCORE_URLS=http://*:7878
+ENV LOGLEVEL
 
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
