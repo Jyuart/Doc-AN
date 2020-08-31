@@ -14,7 +14,7 @@ namespace Doc_AN
             Configuration = configuration;
         }
 
-        public IConfiguration Coniguration { get; }
+        public IConfiguration Configuration { get; }
 
 
         public void ConfigureServices(IServiceCollection services)
