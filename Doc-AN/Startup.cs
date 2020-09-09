@@ -11,7 +11,7 @@ namespace Doc_AN
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            Coniguration = configuration;
         }
 
         public IConfiguration Configuration { get; }
